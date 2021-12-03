@@ -17,7 +17,7 @@ export default function Login() {
     e.preventDefault();
     //cheack roll and password
     if (passwords.includes(password)) {
-      window.location.replace("/order");
+      window.location.replace("hostel-management/order");
     }
   };
   return (

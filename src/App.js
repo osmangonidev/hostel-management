@@ -10,10 +10,10 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route path="/order">
+          <Route path="/hostel-management/order">
             <Order />
           </Route>
-          <Route path="/">
+          <Route path="/hostel-management">
             <Login />
           </Route>
         </Switch>
